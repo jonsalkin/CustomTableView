@@ -61,11 +61,11 @@
 				2C0209262A13906E002A5E39 /* AppDelegate.swift */,
 				2C0209282A13906E002A5E39 /* SceneDelegate.swift */,
 				2C02092A2A13906E002A5E39 /* ViewController.swift */,
+				2C02093A2A139324002A5E39 /* CustomTableViewCell.swift */,
 				2C02092C2A13906E002A5E39 /* Main.storyboard */,
 				2C02092F2A139074002A5E39 /* Assets.xcassets */,
 				2C0209312A139074002A5E39 /* LaunchScreen.storyboard */,
 				2C0209342A139074002A5E39 /* Info.plist */,
-				2C02093A2A139324002A5E39 /* CustomTableViewCell.swift */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
