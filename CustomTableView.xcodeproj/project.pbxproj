@@ -13,6 +13,7 @@
 		2C02092E2A13906E002A5E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C02092C2A13906E002A5E39 /* Main.storyboard */; };
 		2C0209302A139074002A5E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C02092F2A139074002A5E39 /* Assets.xcassets */; };
 		2C0209332A139074002A5E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0209312A139074002A5E39 /* LaunchScreen.storyboard */; };
+		2C02093B2A139324002A5E39 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02093A2A139324002A5E39 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C02092F2A139074002A5E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0209322A139074002A5E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0209342A139074002A5E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C02093A2A139324002A5E39 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2C02092F2A139074002A5E39 /* Assets.xcassets */,
 				2C0209312A139074002A5E39 /* LaunchScreen.storyboard */,
 				2C0209342A139074002A5E39 /* Info.plist */,
+				2C02093A2A139324002A5E39 /* CustomTableViewCell.swift */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				2C02092B2A13906E002A5E39 /* ViewController.swift in Sources */,
 				2C0209272A13906E002A5E39 /* AppDelegate.swift in Sources */,
+				2C02093B2A139324002A5E39 /* CustomTableViewCell.swift in Sources */,
 				2C0209292A13906E002A5E39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lab-practice.CustomTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,6 +337,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lab-practice.CustomTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
